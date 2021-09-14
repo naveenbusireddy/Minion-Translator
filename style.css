@@ -160,3 +160,12 @@ hr {
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
+#output {
+    width: 200px;
+    height: 10vh;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1rem;
+    background-color: ivory;
+}
