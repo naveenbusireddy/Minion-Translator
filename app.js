@@ -26,5 +26,3 @@ function clickHandller() {
 };
 
 translateBtn.addEventListener("click", clickHandller)
-
-// console.log("Welcome JS is working in HTML");
