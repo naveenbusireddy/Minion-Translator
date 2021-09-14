@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root {
+    --primary-color: #93C5FD;
+    --dary-gray: #688abb;
+    --off-white: #F9FAFB;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+.margin-md {
+    margin: 2rem;
+}
+
+/** For Navigation **/
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin: auto;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/** Header **/
+.hero {
+    height: 150px;
+    width: 75px;
+    padding: 1rem auto;
+}
+
+.hero-img {
+    width: 150px;
+    height: 125px;
+    /* display: block; */
+    margin: auto;
+    object-position: center;
+    padding-left: 28rem;
+    padding-bottom: 0rem;
+    align-content: center;
+}
+
+.hero-heading {
+    text-align: center;
+    /* padding-top: 0.5rem; */
+    color: var(--primary-color);
+}
+
+/** For Container **/
+.container {
+    padding: 0rem, 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+textarea {
+    width: 80%;
+    height: 12vh;
+    display: block;
+    margin-left: 1rem;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: var(--primary-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    border: 1px;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.output-background {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#output {
+    width: 80%;
+    height: 12vh;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/** Footer **/
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer-about {
+    font-size: 2rem;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+    padding-inline-start: 0px;
+}
