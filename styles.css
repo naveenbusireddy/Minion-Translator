@@ -20,6 +20,7 @@ body {
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -95,11 +96,13 @@ button {
 /** Footer **/
 .footer {
     background-color: var(--primary-color);
-    padding: 0rem 1rem;
+    padding: 1rem;
     text-align: center;
     color: black;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .footer-about {
