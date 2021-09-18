@@ -37,19 +37,16 @@ body {
 }
 
 .hero-img {
+    max-width: 350px;
     width: 150px;
     height: 125px;
-    /* display: block; */
-    margin: auto;
-    object-position: center;
-    padding-left: 28rem;
-    padding-bottom: 0rem;
-    align-content: center;
+    display: block;
+    padding-top: 1.5rem;
 }
 
 .hero-heading {
     text-align: center;
-    /* padding-top: 0.5rem; */
+    padding-top: 0.5rem;
     color: var(--primary-color);
 }
 
@@ -67,14 +64,13 @@ textarea {
     width: 80%;
     height: 12vh;
     display: block;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     padding: 1rem;
     text-align: left;
     font-size: 1.5rem;
     font-family: 'Caveat', cursive;
     border-radius: 1rem;
-    border: 1px solid;
-    border-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 button {
@@ -96,24 +92,10 @@ button {
     text-align: center;
 }
 
-#output {
-    width: 80%;
-    height: 12vh;
-    padding: 1rem;
-    margin-left: 1rem;
-    text-align: left;
-    font-size: 1.5rem;
-    font-family: 'Caveat', cursive;
-    border-radius: 1rem;
-    border: 1px solid;
-    border-color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
 /** Footer **/
 .footer {
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
     text-align: center;
     color: black;
     border-bottom-left-radius: 1rem;
